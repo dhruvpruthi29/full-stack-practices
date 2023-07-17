@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        'use strict';
+
+        let firstName = null;
+        let secondName = null;
+        let thirdName = "SuperCode";
+        let height = null;
+        let width = null;
+        let area = (height ?? 100) * (width ?? 50);
+
+        alert(firstName ?? secondName ?? thirdName ?? "Anonymous");
+        alert(firstName || secondName || thirdName || "Anonymous");
+        alert(height || 100);
+        alert(height ?? 100);
+        alert(area);
+
+    </script>
+</body>
+</html>

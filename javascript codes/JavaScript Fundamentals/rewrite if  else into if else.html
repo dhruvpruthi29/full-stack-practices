@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        'use strict';
+
+        let message;
+        let login = prompt('what is the status of yourself in your complany', '');
+
+        if(login == 'Employee') {
+            message = 'Hello';
+        } else if (login == 'Director') {
+            message = 'Greetings';
+        } else if (login == '') {
+            message = 'No Login';
+        } else {
+            message = 'you are not allowed.';
+        }
+        alert(message);
+    </script>
+</body>
+</html>

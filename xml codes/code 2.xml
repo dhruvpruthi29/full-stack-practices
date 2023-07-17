@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="simple.xsl"?>
+<breakfast_menu>
+<food>
+    <name>BURGER</name>
+    <price>100 Rs/-</price>
+    <description>
+    Delicious BURGER for your whole famly at a resonable price. grab this offer ASAP.
+    </description>
+    <calories>700</calories>
+</food>
+<food>
+    <name>VEG THALI</name>
+    <price>180 Rs/-</price>
+    <description>
+    Delicious VEG THALI for your whole famly at a resonable price. grab this offer ASAP.
+    </description>
+    <calories>400</calories>
+</food>
+<food>
+    <name>NUDLES</name>
+    <price>120 Rs/-</price>
+    <description>
+    Delicious NUDLES for your whole famly at a resonable price. grab this offer ASAP.
+    </description>
+    <calories>940</calories>
+</food>
+<food>
+    <name>SANDWITCH</name>
+    <price>150 Rs/-</price>
+    <description>
+    Delicious SANDWITCH for your whole famly at a resonable price. grab this offer ASAP.
+    </description>
+    <calories>650</calories>
+</food>
+<food>
+    <name>PIZZA</name>
+    <price>340 Rs/-</price>
+    <description>
+    Delicious PIZZA for your whole famly at a resonable price. grab this offer ASAP.
+    </description>
+    <calories>840</calories>
+</food>
+</breakfast_menu>

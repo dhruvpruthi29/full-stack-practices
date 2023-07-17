@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        'use strict';
+
+        //Speaking of names, "Babel" is one of the most prominent transpilers out there.
+        //Modern project build systems, such as "webpack", provide a means to run a transpiler automatically on every code change, so it’s very easy to integrate into the development process.
+
+        let height = prompt("what is your height"," ");
+        // before running the transpiler
+        height = height ?? 100;
+
+        // after running the transpiler
+        height = (height !== null && height !== undefined) ? height:100;
+
+        alert(height);
+    </script>
+
+</body>
+</html>
